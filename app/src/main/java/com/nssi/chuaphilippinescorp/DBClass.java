@@ -20,6 +20,7 @@ import java.util.Locale;
 
 public class DBClass extends SQLiteOpenHelper {
 
+    ////
     private static final String TABLENAME = "BARCODE_TBL";
     private static final String ID = "ID";
     private static final String SUPPLIERNAME = "SUPPLIERNAME";
