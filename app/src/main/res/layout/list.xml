@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#dae3e3"
+    android:id="@+id/table"
+    android:orientation="horizontal">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/txtQuantity"
+                android:textColor="@color/black"
+                android:text="qty"
+                android:textAlignment="center"
+                android:layout_height="match_parent"
+                android:background="@drawable/back2"
+                android:layout_weight="0.5"/>
+            <TextView
+                android:id="@+id/txtBarcode"
+                android:textColor="@color/black"
+                android:background="@drawable/back2"
+                android:layout_height="match_parent"
+                android:text="barco"
+                android:layout_weight="0.5"/>
+
+        </TableRow>
+</TableLayout>
